@@ -1,3 +1,7 @@
+:root {
+  margin: 0px;
+}
+
 body {
   background: #141414;
   color: #ffffff;
@@ -33,4 +37,29 @@ body {
   font-size: 20px;
   padding: 20px;
   text-align: center;
+}
+
+.button {
+  margin: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.button:hover overlay {
+  opacity: 1;
+}
+
+.nav-custom {
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+
+.contain-custom {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }

@@ -8,11 +8,21 @@ import "./bootstrap/css/bootstrap.min.css";
 import "./App.css";
 import AddFavourites from "./components/AddFavourites";
 import RemoveFavourites from "./components/RemoveFavourites";
+import SignUp from "./components/SignUp";
+import Login from "./components/Login";
+import { useNavigate } from "react-router-dom";
+
+//react router
+import { render } from "react-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import MainFilm from "./components/MainFilm";
 
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [favourites, setFavourites] = useState([]);
   const [searchVal, setSearchVal] = useState("");
+
+  let navigate = useNavigate();
 
   const getMovieRequest = async () => {
     const url = `http://www.omdbapi.com/?s=${searchVal}&apikey=c27ee267`;
@@ -54,20 +64,44 @@ const App = () => {
 
   return (
     <div className="container-fluid movie-app">
-      <div className="row d-flex align-items-center mt-4 mb-4">
-        <MovieListHeading heading="MyFilm"></MovieListHeading>
-        <SearchBox searchVal={searchVal} setSearchVal={setSearchVal} />
+      <div>
+        <nav className="navbar navbar-light bg-light nav-custom ">
+          {/* <Link to="/login">Login</Link>
+          <Link to="/signup">Sign Up</Link> */}
+          <MovieListHeading heading="MyFilm"></MovieListHeading>
+          <button
+            className="btn btn-primary button"
+            onClick={() => {
+              navigate("/login");
+            }}
+          >
+            Login
+          </button>
+          <button
+            className="btn btn-primary button"
+            onClick={() => {
+              navigate("/signup");
+            }}
+          >
+            Sign Up
+          </button>
+          <button
+            className="btn btn-primary button"
+            onClick={() => {
+              navigate("/mainfilm");
+            }}
+          >
+            Daftar Film
+          </button>
+        </nav>
       </div>
-      <div className="row">
-        <MovieList movies={movies} handleFavouritesClick={addFavoriteMovie} favoriteComponent={AddFavourites} />
-      </div>
-      {/* wishlist */}
-      <div className="row d-flex align-items-center mt-4 mb-4">
-        <MovieListHeading heading="Wishlist"></MovieListHeading>
-      </div>
-      <div className="row">
-        <MovieList movies={favourites} handleFavouritesClick={RemoveFavouritesMovie} favoriteComponent={RemoveFavourites} />
-      </div>
+
+      <Routes>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/signup" element={<SignUp />}></Route>
+        <Route path="/mainfilm" element={<MainFilm />}></Route>
+      </Routes>
+      {/* ini mainnya */}
     </div>
   );
 };
