@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+Ini tugas GDSC ITB. Dengan anggota:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. 101_Alfredo Lorentiar Santonanda (Front End dan pages pagesnya)
+2. 529_Rayden (Front End dan pages pagesnya)
+3. 437_Zain (Front End dan pages pagesnya
 
-## Available Scripts
+Berikut ini adalah screenshot dari tampilan kami:
 
-In the project directory, you can run:
+1. Tampilan awal
+   ![image](https://user-images.githubusercontent.com/30948994/152475468-625e6967-71c4-48f5-9364-43fc26fab503.png)
 
-### `npm start`
+Jadi user bisa memilih akan login , signup, atau ingin melihat daftar film di menu pojok kanan atas 2. Tampilan Login
+![image](https://user-images.githubusercontent.com/30948994/152475579-f0ef5246-a2f7-41e5-bcc5-f1095c79dc32.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Untuk tampilan login user bisa memasukkan username dan password (sedang dikembangkan)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Tampilan SignUp
+   ![image](https://user-images.githubusercontent.com/30948994/152475616-7e78dda7-5772-490b-849a-0d1f2998c836.png)
 
-### `npm test`
+Untuk tampilan Sign Up user bisa mendaftarkan username dan password (sedang dikembangkan)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Tampilan Add ke wishlist dan remove dari wishlist
+   ![image](https://user-images.githubusercontent.com/30948994/152475650-76041a2b-951b-4378-9775-6a8b9dbc7784.png)
 
-### `npm run build`
+ini adalah tampilan awal dari add dan remove
+ketika berhasil dicari
+![image](https://user-images.githubusercontent.com/30948994/152475724-133e15ee-e2f3-4eb2-ba7f-29d394d8d1c8.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ketika berhasil dicari ketika kita hover akan ada menu untuk klik add to wishlist
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ketika berhasil ditambahkan di wishlist
+![image](https://user-images.githubusercontent.com/30948994/152475768-7183f487-1758-4c16-b7e9-3a06b9938edf.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+akan berpindah ke wishlist
+ketika berhasil diremove di wishlist
+![image](https://user-images.githubusercontent.com/30948994/152475800-c0dd299a-73eb-4a77-99ea-4e857dc413b2.png)
 
-### `npm run eject`
+ketika sudah diremove maka akan hilang dari wishlist
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Dalam pembuatannya sendiri, kami berusaha untuk mengerjakan ditengah tugas tugas lain yang berdatangan. Sebenarnya ini masih belum lengkap tapi kami berusaha untuk menyelesaikannya. Terima kasih atas kesempatan dan kebijaksanaannya, kritik dan saran dalam hasil dan proses untuk pengembangan kami supaya bisa menjadi developer yang lebih baik dari sebelumnya sangat diperlukan. Terima kasih.
