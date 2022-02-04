@@ -10,7 +10,7 @@ Berikut ini adalah screenshot dari tampilan kami:
    ![image](https://user-images.githubusercontent.com/30948994/152475468-625e6967-71c4-48f5-9364-43fc26fab503.png)
 
 Jadi user bisa memilih akan login , signup, atau ingin melihat daftar film di menu pojok kanan atas 2. Tampilan Login
-![image](https://user-images.githubusercontent.com/30948994/152475579-f0ef5246-a2f7-41e5-bcc5-f1095c79dc32.png)
+![image](https://user-images.githubusercontent.com/30948994/152551883-d27abbf7-28d4-4e1f-b9ff-0fd4cc32dc48.png)
 
 Untuk tampilan login user bisa memasukkan username dan password (sedang dikembangkan)
 
