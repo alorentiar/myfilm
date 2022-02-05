@@ -1,8 +1,8 @@
 Ini tugas GDSC ITB. Dengan anggota:
 
 1. 101_Alfredo Lorentiar Santonanda (Front End dan pages pagesnya)
-2. 529_Rayden (Front End dan pages pagesnya)
-3. 437_Zain (Front End dan pages pagesnya
+2. 529_Rayden (Aktif berkomunikasi dan diskusi)
+3. 437_Zain (Belum ada respons lebih lanjut mengenai tugas)
 
 Berikut ini adalah screenshot dari tampilan kami:
 
