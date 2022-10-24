@@ -37,7 +37,7 @@ const App = () => {
 
   useEffect(() => {
     getMovieRequest(searchVal);
-  }, [searchVal]);
+  }, [setSearchVal]);
 
   useEffect(() => {
     const movieFavourites = JSON.parse(localStorage.getItem("react-movie-app-favourites"));
@@ -69,7 +69,7 @@ const App = () => {
           {/* <Link to="/login">Login</Link>
           <Link to="/signup">Sign Up</Link> */}
           <MovieListHeading heading="MyFilm"></MovieListHeading>
-          <button
+          {/* <button
             className="btn btn-primary button"
             onClick={() => {
               navigate("/login");
@@ -84,7 +84,7 @@ const App = () => {
             }}
           >
             Sign Up
-          </button>
+          </button> */}
           <button
             className="btn btn-primary button"
             onClick={() => {
@@ -97,8 +97,9 @@ const App = () => {
       </div>
 
       <Routes>
-        <Route path="/login" element={<Login />}></Route>
-        <Route path="/signup" element={<SignUp />}></Route>
+        {/* in development */}
+        {/* <Route path="/login" element={<Login />}></Route>
+        <Route path="/signup" element={<SignUp />}></Route> */}
         <Route path="/mainfilm" element={<MainFilm />}></Route>
       </Routes>
       {/* ini mainnya */}
